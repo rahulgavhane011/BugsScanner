@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-#                               __         __
-#                              /__)_   '_/(  _ _
-#                             / ( (//)/(/__)( (//)
-#                                  /
+#                                _____________________________
+#                                /__)/_||_|| || @  /_||_)|_|| |"""+bcolors.BADFAIL+" ●"+bcolors.WARNING+"""_/(  _ _
+#                               / | /  || ||_||_ @/  ||_)| ||_|
 #
 # Author     : Rahul Gavhane @@ Abhishek Jawak
 # Tool       : Rahul@Abhi
@@ -163,7 +162,7 @@ def clear():
 def logo():
     print(bcolors.WARNING)
     logo_ascii = """
-                                  __  _             _  _
+                                  _____________________________
                                  /__)/_||_|| || @  /_||_)|_|| |"""+bcolors.BADFAIL+" ●"+bcolors.WARNING+"""_/(  _ _
                                 / | /  || ||_||_ @/  ||_)| ||_|
                                      
