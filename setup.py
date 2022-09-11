@@ -15,7 +15,7 @@ setup(
     description         =   "The Multi-Tool Web Vulnerability Scanner.",
     long_description    =   README,
     long_description_content_type = "text/markdown",
-    url                 =   "https://github.com/rahulgavhane011/rahul-abhi",
+    url                 =   "https://github.com/rahulgavhane011/BugsScanner",
     author              =   "R4HU1@A$H!",
     py_modules          =   ['rahul@abhi',],
     install_requires    =   [],
