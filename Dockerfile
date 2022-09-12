@@ -1,6 +1,6 @@
 # golismero install has been skipped. 
 # RUN apt-get install -y golismero
-# This fails, so we skip completely for now. See issue https://github.com/kislyuk/argcomplete/issues/348
+# This fails, so we skip completely for now. See issue https://github.com/rahulgavhane011
 # cd golismero && pip install -r requirements.txt && ln -s /opt./golismero/golismero.py /usr/bin/golismero
 
 FROM kalilinux/kali-rolling
@@ -38,6 +38,6 @@ RUN apt-get -yq install \
     apt-get clean && \
     rm -rf /var/lib/{apt,dpkg,cache,log}
 
-ADD rapidscan.py /usr/local/bin/rapidscan.py
+ADD rahul@abhi.py /usr/local/bin/rahul@abhi.py
 WORKDIR /app
 ENTRYPOINT ["/usr/local/bin/rahul@abhi.py"]
